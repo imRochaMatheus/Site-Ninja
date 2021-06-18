@@ -100,7 +100,7 @@ h2 {
     background-color: rgb(252, 0, 1);
     color: #fff;
     padding-top: 50px;
-    height: 300px;
+    height: 350px;
 }
 
 #about-section h2 {
@@ -117,7 +117,7 @@ h2 {
 /* skills */
 
 #skills-section {
-    margin-top: -100px;
+    margin-top: -80px;
     background-color: #fff;
     width: 80%;
     margin-right: auto;
