@@ -4,10 +4,6 @@ body, p, h1, h2, input, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    min-width: 740px;
-}
-
 h2 {
     font-size: 30px;
 }
