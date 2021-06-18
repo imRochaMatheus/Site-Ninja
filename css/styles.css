@@ -35,6 +35,7 @@ h2 {
     transform: rotate(45deg);
     position: absolute;
     top: 10px;
+    left: 20px;
 }
 
 #navbar nav {
@@ -96,7 +97,7 @@ h2 {
 /* About */
 #about-section {
     text-align: center;
-    background-color: rgb(237, 30, 36);
+    background-color: rgb(252, 0, 1);
     color: #fff;
     padding-top: 50px;
     height: 300px;
@@ -129,6 +130,7 @@ h2 {
 #skills-section .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .skills-container{
@@ -136,6 +138,7 @@ h2 {
     text-align: center;
     padding: 60px 25px;
     white-space: pre-line;
+   
 }
 
 .central {
@@ -152,7 +155,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
+    height: 200px;
     padding: 15px;
     margin-bottom: 25px;
 
@@ -205,27 +208,25 @@ h2 {
     margin-right: 25px;
     background-size: cover;
     height: 300px;
-    border-right: 2px solid rgb(237, 30, 36);
-    border-bottom: 2px solid rgb(237, 30, 36);
 }
 
 .proj1 {
-    background-image: url('../images/proj1.jpg');
+    background-image: url('../images/time7.jpeg');
 }
 
 .proj2 {
-    background-image: url('../images/proj2.jpg');
+    background-image: url('../images/missao2.png');
 }
 
 .proj3 {
-    background-image: url('../images/proj3.jpg');
+    background-image: url('../images/missao3.png');
 }
 
 /* footer */
 
 footer {
    padding: 50px 0; 
-   background-color: rgb(237, 30, 36);
+   background-color: #fc0001;
    color: #fff;
    text-align: center;
 }
@@ -265,10 +266,10 @@ footer .detail {
 
     #navbar {
         background-color: #000; 
-        padding: 0 5px 0 5px;
-        position: static;
-        opacity: 1;
-        width: 98%;
+        padding: 0;
+        position: absolute;
+        opacity: .6;
+        width: 100%;
        
     }
 
@@ -319,7 +320,7 @@ footer .detail {
 
     /* about */
     #about-section {
-        padding: 2rem;
+        padding: 1.5rem;
         padding-bottom: 0;
     }
 
