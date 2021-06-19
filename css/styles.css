@@ -17,6 +17,7 @@ h2 {
     color: rgb(237, 30, 36);
     padding: 0 10px;
     height: 60px;
+    z-index: 9999;
 }
 
 #navbar h2, #navbar ul, #navbar-list li, #navbar nav  {
@@ -66,6 +67,7 @@ h2 {
     height: 70vh;
     background-image: url('../images/back.jpg');
     background-size: cover;
+    background-attachment: fixed;
     padding-top: 15vh;
 }
 
@@ -123,8 +125,8 @@ h2 {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid #CCC;
     border-radius: 10px;
+    border: 1px solid #ccc;
     
 }
 
@@ -137,7 +139,7 @@ h2 {
 .skills-container{
     flex: 1 1 0;
     text-align: center;
-    padding: 60px 25px;
+    padding: 10px;
    
 }
 
@@ -152,7 +154,7 @@ h2 {
 }
 
 .skills-container img {
-    height: 200px;
+    height: 150px;
     padding: 15px;
     margin-bottom: 25px;
 
@@ -165,7 +167,7 @@ h2 {
     margin-bottom: 15px;
 }
  .skills-container p {
-     line-height: 25px;
+    line-height: 25px;
  }
 
  /*jobs */
@@ -205,6 +207,12 @@ h2 {
     margin-right: 25px;
     background-size: cover;
     height: 300px;
+    transition: transform .5s ease;
+}
+
+.job-box:hover{
+  
+    transform:scale(1.05);
 }
 
 .proj1 {
